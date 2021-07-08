@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="SqlScripts\001_AddTable_Customer.sql" />
+    <EmbeddedResource Include="SqlScripts\002_FillSampleData.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="dbup-core" Version="4.5.0" />
     <PackageReference Include="dbup-postgresql" Version="4.5.0" />
   </ItemGroup>
